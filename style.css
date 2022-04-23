@@ -169,6 +169,13 @@ img {
   background-color: #ff6b00;
 }
 
+.button:disabled {
+  background-color: #dbd8d7;
+  color: #000;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .cardtwo {
   position: relative;
   width: 327px;
@@ -222,6 +229,23 @@ img {
   font-size: 17px;
 }
 
+.cardtwo .button9:hover {
+  background-color: #789;
+  color: #ff6b00;
+}
+
+.cardtwo .button9:active {
+  background-color: #ff6b00;
+  color: #789;
+}
+
+.cardtwo .button9:disabled {
+  background-color: #dbd8d7;
+  color: #000;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .about {
   width: 375px;
   height: 1750px;
@@ -258,6 +282,23 @@ img {
   color: #fff;
   font-family: Inter, sans-serif;
   font-size: 17px;
+}
+
+.about button:hover {
+  background-color: #789;
+  color: #ff6b00;
+}
+
+.about button:active {
+  background-color: #ff6b00;
+  color: #789;
+}
+
+.about button:disabled {
+  background-color: #dbd8d7;
+  color: #000;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .about hr {
