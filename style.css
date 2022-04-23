@@ -89,7 +89,7 @@ img {
   float: right;
 }
 
-.works {
+.work {
   display: grid;
   grid-template-rows: 83px 3372;
   width: 375px;
