@@ -86,3 +86,183 @@ li {
 img {
   float: right;
 }
+
+.works {
+  display: grid;
+  grid-template-rows: 83px 3372;
+  width: 375px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.cards h1 {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #675a53;
+  padding-top: 120px;
+  padding-bottom: 24px;
+}
+
+.cards hr {
+  width: 100%;
+  margin-bottom: 56px;
+}
+
+.cards h2 {
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+}
+
+.cards p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #fff;
+  border: solid #e5e5e5;
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 12px;
+  padding: 5px;
+}
+
+.cards .button5 {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: #a9a9a9;
+  color: #000;
+}
+
+.button:active {
+  background-color: #ff6b00;
+}
+
+.cardtwo {
+  position: relative;
+  width: 327px;
+  height: 360px;
+  background-image: url("image/second.png");
+  margin-top: 24px;
+}
+
+.cardtwo h5 {
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  color: #fff;
+  font-style: normal;
+  padding-left: 24px;
+  padding-top: 120px;
+  padding-bottom: 24px;
+}
+
+.cardtwo p {
+  font-family: Crete Round, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-style: normal;
+  padding-left: 24px;
+}
+
+.cardtwo button {
+  background-color: #789;
+  color: #fff;
+  border: none;
+}
+
+.cardtwo .button9 {
+  background-color: #ff6b00;
+  color: #fff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+}
+
+.about {
+  width: 375px;
+  height: 1550px;
+  background-color: #000;
+  margin-top: 120px;
+}
+
+.about h1 {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  color: #ff6b00;
+  padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
+
+.about p {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  color: #f4f5f7;
+  padding-left: 24px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+}
+
+.about button {
+  display: inline;
+  margin-left: 24px;
+  background-color: #ff6b00;
+  border: none;
+  padding: 12px;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-size: 17px;
+}
+
+.about hr {
+  width: 327px;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+.skill li {
+  display: block;
+}
+
+.heading {
+  font-family: InaiMathi, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-align: center;
+}
+
+.listone li {
+  list-style-image: url('image/dimondImage.png');
+}
+
+.listtwo li {
+  list-style-image: url('image/RectangleImage.png');
+}
+
+.listthree li {
+  list-style-image: url('CircleImage.png');
+}
+
+.sub-list {
+  list-style: none;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+}
