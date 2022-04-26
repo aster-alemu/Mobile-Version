@@ -136,7 +136,7 @@ img {
 }
 
 .cards li {
-  float: left;
+  display: inline;
   list-style: none;
 }
 
@@ -159,6 +159,7 @@ img {
   color: #fff;
   font-size: 16px;
   padding: 12px;
+  margin-left: 0;
 }
 
 .button:hover {
