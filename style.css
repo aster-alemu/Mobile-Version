@@ -433,10 +433,13 @@ input[type="email"] {
   margin-right: 122px;
   margin-bottom: 124px;
   padding: 12px;
+  border: none;
 }
 
 input[type="button"]:hover {
-  background-color: #789;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 #text-area {

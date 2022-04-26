@@ -195,12 +195,20 @@
         </p>
       </div>
       <div class="contact-form-elements">
-        <form action="#">
-          <input type="text" name="full-name" placeholder="Full name" /> <br />
+        <form action="#" method="post">
+          <input
+            type="text"
+            name="full-name"
+            placeholder="Full name"
+            maxlength="30"
+            required
+          />
+          <br />
           <input
             type="email"
             name="email-address"
             placeholder="Email address"
+            required
           />
           <textarea
             name="text-area"
@@ -208,6 +216,7 @@
             cols="30"
             rows="10"
             placeholder="Enter text here"
+            maxlength="500"
           ></textarea>
           <input type="button" value="Get in touch" />
         </form>
