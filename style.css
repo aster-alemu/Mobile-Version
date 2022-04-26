@@ -446,6 +446,7 @@ input[type=button]:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  border: 0;
 }
 
 .button:active {
