@@ -350,7 +350,8 @@ i {
 }
 
 .contact-form {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-rows: 216px 330px 72px;
   width: 375px;
   background-color: #fff;
@@ -362,7 +363,7 @@ i {
   font-style: normal;
   font-size: 32px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 44px;
   padding-left: 24px;
   padding-right: 24px;
@@ -372,9 +373,7 @@ i {
 }
 
 .contact-form-elements {
-  margin-top: 193px;
-  margin-left: 24px;
-  margin-left: 24px;
+  margin-top: 73px;
 }
 
 input {
@@ -438,6 +437,15 @@ padding-left: 12px;
 
 input[type=button]:hover {
   background-color: #789;
+}
+
+#text-area {
+  background-color: #fbf8f7;
+  width: 88%;
+  padding: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .button:active {
