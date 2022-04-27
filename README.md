@@ -1,6 +1,6 @@
 # Mobile-Version
 
-This is the third project at Microverse first week activity and my portfolio website.
+This is the first project at Microverse second week with coding partner and my portfolio website.
 
 ## Built With
 
@@ -45,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Great thanks to online resource provider 
+- Great thanks to my coding partner Bright and Natnael resource provider 
 
 ## 📝 License
 
