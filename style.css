@@ -452,11 +452,11 @@ input[type="button"]:hover {
   border: 0;
 }
 
-.button:active {
+input[type=button]:active {
   background-color: #ff6b00;
 }
 
-.button:disabled {
+input[type=button]:disabled {
   background-color: #dbd8d7;
   color: #000;
   cursor: not-allowed;
@@ -469,7 +469,7 @@ input[type="button"]:hover {
   margin-top: 25px;
 }
 
-hr {
+.contact-form-elements hr {
   width: 375px;
   height: 1px;
 }
@@ -481,6 +481,6 @@ hr {
   margin-bottom: 5%;
 }
 
-.social-icon i {
+.footer .social-icon i {
   color: #505f79;
 }
