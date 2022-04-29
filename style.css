@@ -185,6 +185,11 @@ img {
   background-image: url("image/second.png");
   margin-top: 24px;
   margin-bottom: 50px;
+  transition: 2s;
+}
+
+.cardtwo:hover {
+  transform: scale(1.1);
 }
 
 .cardtwo h5 {
