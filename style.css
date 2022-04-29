@@ -25,6 +25,11 @@ header {
   padding-left: 24px;
   font-size: 18px;
   text-decoration: none;
+  transition: 3s;
+}
+
+.logo:hover {
+  transform: rotateY(360deg);
 }
 
 nav a {
@@ -466,7 +471,7 @@ input[type="submit"]:active {
   border: 0;
 }
 
-input[type=button]:disabled {
+input[type="button"]:disabled {
   background-color: #dbd8d7;
   color: #000;
   cursor: not-allowed;
