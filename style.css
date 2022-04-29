@@ -25,6 +25,11 @@ header {
   padding-left: 24px;
   font-size: 18px;
   text-decoration: none;
+  transition: 3s;
+}
+
+.logo:hover {
+  transform: rotateY(360deg);
 }
 
 nav a {
@@ -185,6 +190,11 @@ img {
   background-image: url("image/second.png");
   margin-top: 24px;
   margin-bottom: 50px;
+  transition: 2s;
+}
+
+.cardtwo:hover {
+  transform: scale(1.1);
 }
 
 .cardtwo h5 {
@@ -461,7 +471,7 @@ input[type="submit"]:active {
   border: 0;
 }
 
-input[type=button]:disabled {
+input[type="button"]:disabled {
   background-color: #dbd8d7;
   color: #000;
   cursor: not-allowed;

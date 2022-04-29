@@ -1,4 +1,4 @@
-# Mobile-Version
+# Desktop-Version
 
 This is the first project at Microverse second week with coding partner and my portfolio website.
 
