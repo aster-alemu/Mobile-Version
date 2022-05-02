@@ -1,6 +1,6 @@
 # Desktop-Version
 
-This is the first project at Microverse second week with coding partner and my portfolio website.
+This is the fifth project at Microverse third week my portfolio website.
 
 ## Built With
 
@@ -12,7 +12,7 @@ This is the first project at Microverse second week with coding partner and my p
 To get a local copy up and running follow these simple steps.
 
 1. Clone the Repo or Download the Zip file (git clone git@github.com:aster-alemu/Mobile-Version.git)
-2. Run the live server or simply open index.html with your browser on local machine.
+2. Run the live server using this link : https://aster-alemu.github.io/Mobile-Version/
 
 ## Prerequisite
 
