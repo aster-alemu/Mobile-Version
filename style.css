@@ -122,15 +122,6 @@ img {
   margin-bottom: 56px;
 }
 
-.cards h2 {
-  font-family: Crete Round, sans-serif;
-  font-style: normal;
-  font-size: 25px;
-  line-height: 44px;
-  color: #091e42;
-  margin-top: 24px;
-}
-
 .cards p {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -789,7 +780,7 @@ input[type="button"]:disabled {
     position: relative;
   }
 
-  .about h3 {
+  .about h1 {
     position: static;
     width: 566px;
     height: 78px;
