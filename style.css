@@ -106,7 +106,7 @@ img {
   padding: 24px;
 }
 
-.cards h1 {
+.cards h2 {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-size: 35px;
@@ -120,15 +120,6 @@ img {
 .cards hr {
   width: 100%;
   margin-bottom: 56px;
-}
-
-.cards h2 {
-  font-family: Crete Round, sans-serif;
-  font-style: normal;
-  font-size: 25px;
-  line-height: 44px;
-  color: #091e42;
-  margin-top: 24px;
 }
 
 .cards p {
@@ -797,6 +788,7 @@ input[type="button"]:disabled {
     top: 130px;
     margin-left: 142px;
     margin-bottom: 48px;
+    color: #e05304;
   }
 
   .about p {
