@@ -32,7 +32,11 @@ header {
   display: none;
 } */
 
-#menu-item {
+.menu-item {
+  display: none;
+}
+
+.show-menu{
   display: block;
 }
 
