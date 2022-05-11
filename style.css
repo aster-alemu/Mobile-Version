@@ -50,17 +50,6 @@ header {
   display: block;
 }
 
-#menu-options li {
-  position: relative;
-  left: 24px;
-  padding-bottom: 15px;
-  width: 100%;
-  list-style: none;
-  font-size: 32px;
-  font-weight: 700 bold;
-  margin-top: 39px;
-}
-
 #close {
   position: absolute;
   top: 25%;
@@ -71,21 +60,9 @@ header {
   border-bottom: none;
 }
 
-#menu-options a {
-  border-bottom: 1px solid #6f6b6c;
-  text-decoration: none;
-  color: #fff5e1;
-  align-items: center;
-  font-family: Inter, sans-serif;
-  position: absolute;
-  left: 0;
-  right: 68px;
-  padding-left: 16px;
-  padding-bottom: 15px;
-}
-
 .fa-envelope {
   display: none;
+  border-bottom: none;
 }
 
 #close-menu {
@@ -563,6 +540,34 @@ input[type="button"]:disabled {
 
 .about .Illustration-image {
   display: none;
+}
+
+#menu-options li {
+  position: relative;
+  left: 24px;
+  padding-bottom: 15px;
+  width: 100%;
+  list-style: none;
+  font-size: 32px;
+  font-weight: 700 bold;
+  margin-top: 39px;
+}
+
+#menu-options a {
+  border-bottom: 1px solid #6f6b6c;
+  text-decoration: none;
+  color: #fff5e1;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  position: absolute;
+  left: 0;
+  right: 68px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+}
+
+#menu-options .envelop {
+  border-bottom: none;
 }
 
 @media only screen and (min-width: 768px) {
