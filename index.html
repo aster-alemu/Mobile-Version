@@ -12,18 +12,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="home">
-      <header>
+    <main id="portfolio">
+    <div class="home" id="top-section">
+      <header id="header-section">
         <a href="index.html" class="logo">Welcome</a>
-        <nav>
-          <a href="" id="menu-icon"><i class="fas fa-bars"></i></a>
+        <nav id="bars">
+          <a href="#" id="menu-icon"><i class="fas fa-bars"></i></a>
         </nav>
-        <ul id="top-nav">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-        </ul>
+        <div class="menu-item">
+          <ul class="top-nav" id="menu-options">
+              <li id="close-menu"><i class="fa fa-times" aria-hidden="true">
+              </i></li>
+              <li><a href="#my-works" class="nav-link">Portfolio</a></li>
+              <li><a href="#about-me" class="nav-link">About</a></li>
+              <li><a href="#contact-me" class="nav-link">Contact</a></li>
+            <li><a href="#" class="envelop" onclick="closeTab()"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+          </ul>  
+        </div>
       </header>
       <section class="headline">
         <div class="col-1">
@@ -66,7 +71,7 @@
         </div>
       </section>
     </div>
-    <section class="work">
+    <section class="work" id="my-works">
       <section class="cards">
         <h2>My Recent Works</h2>
         <hr />
@@ -166,7 +171,7 @@
         </div>
       </section>
     </section>
-    <section class="about">
+    <section class="about" id="about-me">
         <h1>About me</h1>
         <p>
           Hello I’m a software developer! I can help you build a product , feature
@@ -203,7 +208,7 @@
         </ul>
       </div>
     </section>
-    <footer class="contact-form">
+    <footer class="contact-form" id="contact-me">
       <div class="contact-form-catagories">
         <div class="primary-text">
           <p>
@@ -267,5 +272,7 @@
         </ul>
       </div>
     </footer>
+  </main>
+    <script src="main.js"></script>
   </body>
 </html>

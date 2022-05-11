@@ -13,8 +13,8 @@
 }
 
 header {
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: space-between;
   align-items: center;
   background-color: #3c3a39;
@@ -27,6 +27,51 @@ header {
   text-decoration: none;
   transition: 3s;
 }
+
+.menu-item {
+  display: none;
+}
+
+.show-menu {
+  display: block;
+  height: 100vh;
+}
+
+.portfolio {
+  display: block;
+}
+
+#menu-options {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #3c3a39;
+  height: 100vh;
+  width: 375px;
+  display: block;
+}
+
+#close {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 325px;
+  color: #fff;
+  font-size: 24px;
+  border-bottom: none;
+}
+
+.fa-envelope {
+  display: none;
+  border-bottom: none;
+}
+
+/* #close-menu a {
+  display: flex;
+  justify-content: right;
+  border-bottom: none;
+  color: #fff;
+} */
 
 .logo:hover {
   transform: rotateY(360deg);
@@ -491,16 +536,47 @@ input[type="button"]:disabled {
   color: #505f79;
 }
 
-#top-nav {
-  display: none;
-}
-
 .col-1 img {
   display: none;
 }
 
 .about .Illustration-image {
   display: none;
+}
+
+#menu-options li {
+  position: relative;
+  left: 24px;
+  padding-bottom: 15px;
+  width: 100%;
+  list-style: none;
+  font-size: 32px;
+  font-weight: 700 bold;
+  margin-top: 39px;
+}
+
+#menu-options a {
+  border-bottom: 1px solid #6f6b6c;
+  text-decoration: none;
+  color: #fff5e1;
+  align-items: center;
+  font-family: Inter, sans-serif;
+  position: absolute;
+  left: 0;
+  right: 68px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+}
+
+#menu-options .envelop {
+  border-bottom: none;
+}
+
+#menu-options i {
+  float: right;
+  margin-right: 24px;
+  padding-right: 24px;
+  color: #67798e;
 }
 
 @media only screen and (min-width: 768px) {
@@ -529,7 +605,7 @@ input[type="button"]:disabled {
     display: none;
   }
 
-  #top-nav {
+  .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -545,10 +621,6 @@ input[type="button"]:disabled {
 
   .social li {
     display: block;
-  }
-
-  #top-nav li {
-    display: inline;
   }
 
   #top-nav a {
