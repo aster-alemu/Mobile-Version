@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main id="portfolio">
     <div class="home" id="top-section">
       <header id="header-section">
         <a href="index.html" class="logo">Welcome</a>
@@ -19,13 +20,15 @@
           <a href="#" id="menu-icon"><i class="fas fa-bars"></i></a>
         </nav>
         <div class="menu-item">
-          <ul class="top-nav" id="menu-options">
-            <li id="close-menu"><p id="close">X
-            </p></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href=""><i class="fa fa-envelope"aria-hidden="true"></i></a></li>
+          <ul class="top-nav">
+            <div id="menu-options">
+              <li id="close-menu"><p id="close" onclick="closeTab()">x
+              </p></li>
+              <li><a href="#my-works">Portfolio</a></li>
+              <li><a href="#about-me">About</a></li>
+              <li><a href="#contact-me">Contact</a></li>
+            </div>
+            <li class="env-icon"><a href=""><i class="fa fa-envelope"aria-hidden="true"></i></a></li>
           </ul>  
         </div>
       </header>
@@ -70,7 +73,7 @@
         </div>
       </section>
     </div>
-    <section class="work">
+    <section class="work" id="my-works">
       <section class="cards">
         <h2>My Recent Works</h2>
         <hr />
@@ -170,7 +173,7 @@
         </div>
       </section>
     </section>
-    <section class="about">
+    <section class="about" id="about-me">
         <h1>About me</h1>
         <p>
           Hello I’m a software developer! I can help you build a product , feature
@@ -207,7 +210,7 @@
         </ul>
       </div>
     </section>
-    <footer class="contact-form">
+    <footer class="contact-form" id="contact-me">
       <div class="contact-form-catagories">
         <div class="primary-text">
           <p>
@@ -271,6 +274,7 @@
         </ul>
       </div>
     </footer>
+  </main>
     <script src="main.js"></script>
   </body>
 </html>
