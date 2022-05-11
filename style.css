@@ -34,6 +34,7 @@ header {
 
 .show-menu {
   display: block;
+  height: 100vh;
 }
 
 .portfolio {
@@ -55,7 +56,7 @@ header {
   top: 25%;
   bottom: 25%;
   left: 325px;
-  color: #67798e;
+  color: #fff;
   font-size: 24px;
   border-bottom: none;
 }
@@ -65,11 +66,12 @@ header {
   border-bottom: none;
 }
 
-#close-menu {
+/* #close-menu a {
   display: flex;
   justify-content: right;
   border-bottom: none;
-}
+  color: #fff;
+} */
 
 .logo:hover {
   transform: rotateY(360deg);
@@ -568,6 +570,13 @@ input[type="button"]:disabled {
 
 #menu-options .envelop {
   border-bottom: none;
+}
+
+#menu-options i {
+  float: right;
+  margin-right: 24px;
+  padding-right: 24px;
+  color: #67798e;
 }
 
 @media only screen and (min-width: 768px) {
