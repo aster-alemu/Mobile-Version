@@ -581,37 +581,10 @@ input[type="button"]:disabled {
   color: #67798e;
 }
 
-/* .overlay {
-  display: none;
-} */
-
-/* .overlay .show {
-  display: block;
-  height: 100vh;
-} */
-
-/* .overlay {
-  display: flex;
-  opacity: 0;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vh;
-  pointer-events: none;
-} */
-
-/* .overlay .show {
-  pointer-events: auto;
-  opacity: 1;
-} */
-
 .card-works {
   grid-template-rows: 82px 36px 220px 220px 56px;
   background: #fff;
-  width:  343px;
+  width: 343px;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -635,12 +608,6 @@ input[type="button"]:disabled {
   flex-direction: column;
   position: relative;
 }
-
-/* .heading-part {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-} */
 
 .top-desktop .heading-part h1 {
   font-family: 'Roboto', sans-serif;
