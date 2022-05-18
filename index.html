@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aster's portfolio site</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -74,7 +71,7 @@
     <section class="work" id="my-works">
       <section class="cards">
         <h2>My Recent Works</h2>
-        <hr />
+       <hr />
         <div>
           <img src="image/firstImg.png" alt="" />
           <h2>Multi-Post Stories</h2>
@@ -102,7 +99,7 @@
               <li><button class="button button7">bootstrap</button></li>
               <li><button class="button button8">Ruby</button></li>
             </ul>
-            <button class="button button9">See project</button>
+            <button class="button button9" >See project</button>
           </div>
         <div class="col-5 cardtwo">
           <h5 class="topcenter">Data Dashboard Healthcare</h5>
@@ -167,7 +164,7 @@
             <li><button class="button button7">bootstrap</button></li>
             <li><button class="button button8">Ruby</button></li>
           </ul>
-          <button class="button button9">See project</button>
+          <button class="button button9 btnSeeProject">See project</button>
         </div>
       </section>
     </section>
@@ -273,6 +270,44 @@
       </div>
     </footer>
   </main>
-    <script src="main.js"></script>
+
+  <div class="overlay" id="modal-container">
+    <div class="card-works">
+      
+        <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+      <!-- <div class="top-desktop">
+        <div class="heading-part"><h1>Multi-Post Stories</h1>
+          <h2>Keeping track of hundreds  of components website</h2>
+          <a class="fa fa-times">&times;</a>
+          
+        </div>
+        <div class="technologies">
+          <ul>
+            <li class="tec-list"><button class="button button1">html</button></li>
+            <li class="tec-list"><button class="button button2">Bootstrap</button></li>
+            <li class="tec-list"><button class="button button4">Ruby on rails</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="snapshout-description-source">
+        <div class="snapshot-image">
+          <img class="snapshot" src="image/Snapshoot-Portfolio.png" alt="">
+        </div>
+        <div class="description-source">
+          <div class="description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+            </p>
+          </div>
+            <div class="source">
+              <button class="btn1">See Live <i class="fa fa-external-link" aria-hidden="true"></i></button>
+              <button class="btn2">See Source <i class="fa-brands fa-github"></i></button>
+            </div> 
+        </div> -->
+      </div> 
+    </div>
+  </div>
+  <script src="modalMain.js"></script>
+  <script src="main.js"></script>
+  
   </body>
 </html>

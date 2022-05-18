@@ -257,6 +257,8 @@ img {
 
 .cardtwo li {
   display: inline;
+  padding-left: 10px;
+  padding-bottom: 24px;
   list-style: none;
 }
 
@@ -577,6 +579,168 @@ input[type="button"]:disabled {
   margin-right: 24px;
   padding-right: 24px;
   color: #67798e;
+}
+
+/* .overlay {
+  display: none;
+} */
+
+/* .overlay .show {
+  display: block;
+  height: 100vh;
+} */
+
+/* .overlay {
+  display: flex;
+  opacity: 0;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vh;
+  pointer-events: none;
+} */
+
+/* .overlay .show {
+  pointer-events: auto;
+  opacity: 1;
+} */
+
+.card-works {
+  grid-template-rows: 82px 36px 220px 220px 56px;
+  background: #fff;
+  width:  343px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0 opacity 0.5s;
+  margin-left: 16px;
+  margin-top: 60px;
+  margin-right: 16px;
+}
+
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.top-desktop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* .heading-part {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+.top-desktop .heading-part h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  position: relative;
+  left: 16px;
+  top: 20px;
+  right: 14px;
+  display: block;
+  margin-left: 16px;
+}
+
+.heading-part h2 {
+  display: none;
+}
+
+.heading-part .fa-times {
+  position: absolute;
+  top: 40px;
+  left: 330px;
+  color: #67798b;
+  margin-right: 100px;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  margin-top: 52px;
+}
+
+.snapshot {
+  float: none;
+  margin-left: 16px;
+  margin-top: 24px;
+}
+
+.technologies .tec-list {
+  display: inline;
+}
+
+.description {
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+}
+
+.description p {
+  color: #344563;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  margin-right: 24px;
+  padding-right: 24px;
+}
+
+.source {
+  margin-left: 16px;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-bottom: 24px;
+  width: 311px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.btn1 {
+  width: 134px;
+  height: 48px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #ff6b00;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+
+.btn2 {
+  width: 159px;
+  height: 48px;
+  padding-left: 12px;
+  background-color: #ff6b00;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  border: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -924,5 +1088,90 @@ input[type="button"]:disabled {
     display: grid;
     grid-template-columns: auto auto;
     gap: 135px;
+  }
+
+  .card-works {
+    display: grid;
+    grid-template-rows: 156px 475px;
+    background: #fff;
+    width: 80%;
+    height: 100vh;
+    margin-left: 142px;
+    margin-right: 142px;
+    align-items: center;
+  }
+
+  .top-desktop .heading-part h1 {
+    display: none;
+  }
+
+  .heading-part h2 {
+    display: block;
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    position: relative;
+    color: #172b4d;
+    padding-top: 24px;
+    margin-top: 24px;
+  }
+
+  .heading-part .fa-times {
+    position: absolute;
+    top: 60px;
+    padding-right: 36px;
+    left: 930px;
+    color: #67798b;
+  }
+
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    margin-bottom: 36px;
+    margin-top: 5px;
+  }
+
+  .technologies ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding-top: 32px;
+    padding-left: 16px;
+    position: absolute;
+    top: 1px;
+  }
+
+  .snapshout-description-source {
+    display: grid;
+    grid-template-columns: 659px 424px;
+    gap: 5px;
+    width: 1083px;
+    margin-top: 40px;
+  }
+
+  .snapshot {
+    width: 600px;
+    height: 448px;
+    margin-bottom: 27px;
+  }
+
+  .description-source {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 139px;
+  }
+
+  .description p {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
   }
 }
