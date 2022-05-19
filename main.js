@@ -239,7 +239,7 @@ const myModal = document.querySelector('.card-works');
 const closeMenuIcon = document.querySelector('.para');
 const myPortfolio = document.querySelector('#portfolio');
 Array.prototype.map.call(btnopen, (b) => {
-  b.addEventListener('click', function () {
+  b.addEventListener('click', () => {
     myModal.classList.add('bg-active');
     myPortfolio.style.filter = 'blur(5px)';
   });
