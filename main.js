@@ -2,7 +2,8 @@
     const ProjectDetail= [{
       title:'Multi-Post Stories',
       popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech:['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
+      popTech:['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
       technologies: ['html', 'Bootstrap', 'Ruby on rails'],
       ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
       imagePlaceholder:'image/Snapshoot-Portfolio.png',
@@ -17,9 +18,9 @@
       cardBackgroundfour:'url(image/col4.png)',
       cardBackgroundsith:'url(image/col6.png)',
       cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
       seesourceLive: 'https://aster-alemu.github.io/',
       seeSourceLink: 'https://github.com/aster-alemu/',
 
@@ -27,7 +28,7 @@
     {
       title:'Multi-Post Stories',
       popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech:['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
       technologies: ['html', 'Bootstrap', 'Ruby on rails'],
       ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
       imagePlaceholder:'image/Snapshoot-Portfolio.png',
@@ -42,62 +43,9 @@
       cardBackgroundfour:'url(image/col4.png)',
       cardBackgroundsith:'url(image/col6.png)',
       cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
-      seesourceLive: 'https://aster-alemu.github.io/',
-      seeSourceLink: 'https://github.com/aster-alemu/',
-
-
-    },
-    {
-      title:'Multi-Post Stories',
-      popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech:['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-      ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
-      imagePlaceholder:'image/Snapshoot-Portfolio.png',
-      seeLive:'See Live',
-      seeSource:'See Source',
-      ImageFirstCard:'image/firstImg.png',
-      firstDescription:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-      titleCardOne:'Multi-Post Stories',
-      cardTwoHeader:'Profesional Art Printing Data',
-      cardTwoDescription: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
-      cardBackground:'url(image/col5.png)',
-      cardBackgroundfour:'url(image/col4.png)',
-      cardBackgroundsith:'url(image/col6.png)',
-      cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
-      seesourceLive: 'https://aster-alemu.github.io/',
-      seeSourceLink: 'https://github.com/aster-alemu/',
-
-
-
-    },
-    {
-      title:'Multi-Post Stories',
-      popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech:['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
-      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
-      ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
-      imagePlaceholder:'image/Snapshoot-Portfolio.png',
-      seeLive:'See Live',
-      seeSource:'See Source',
-      ImageFirstCard:'image/firstImg.png',
-      firstDescription:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
-      titleCardOne:'Multi-Post Stories',
-      cardTwoHeader:'Profesional Art Printing Data',
-      cardTwoDescription: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
-      cardBackground:'url(image/col5.png)',
-      cardBackgroundfour:'url(image/col4.png)',
-      cardBackgroundsith:'url(image/col6.png)',
-      cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
       seesourceLive: 'https://aster-alemu.github.io/',
       seeSourceLink: 'https://github.com/aster-alemu/',
 
@@ -106,7 +54,7 @@
     {
       title:'Multi-Post Stories',
       popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech :['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
       technologies: ['html', 'Bootstrap', 'Ruby on rails'],
       ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
       imagePlaceholder:'image/Snapshoot-Portfolio.png',
@@ -121,9 +69,36 @@
       cardBackgroundfour:'url(image/col4.png)',
       cardBackgroundsith:'url(image/col6.png)',
       cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
+      seesourceLive: 'https://aster-alemu.github.io/',
+      seeSourceLink: 'https://github.com/aster-alemu/',
+
+
+
+    },
+    {
+      title:'Multi-Post Stories',
+      popTitle:'Keeping track of hundreds  of components website',
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
+      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+      ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
+      imagePlaceholder:'image/Snapshoot-Portfolio.png',
+      seeLive:'See Live',
+      seeSource:'See Source',
+      ImageFirstCard:'image/firstImg.png',
+      firstDescription:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+      titleCardOne:'Multi-Post Stories',
+      cardTwoHeader:'Profesional Art Printing Data',
+      cardTwoDescription: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
+      cardBackground:'url(image/col5.png)',
+      cardBackgroundfour:'url(image/col4.png)',
+      cardBackgroundsith:'url(image/col6.png)',
+      cardBackgroundseven:'url(image/col10.png)',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
       seesourceLive: 'https://aster-alemu.github.io/',
       seeSourceLink: 'https://github.com/aster-alemu/',
 
@@ -132,7 +107,7 @@
     {
       title:'Multi-Post Stories',
       popTitle:'Keeping track of hundreds  of components website',
-      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the relea',      popTech: ['Codekit', 'GitHub', 'javaScript', 'Bootstrap', 'Terminal', 'Codepen'],
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
       technologies: ['html', 'Bootstrap', 'Ruby on rails'],
       ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
       imagePlaceholder:'image/Snapshoot-Portfolio.png',
@@ -147,9 +122,35 @@
       cardBackgroundfour:'url(image/col4.png)',
       cardBackgroundsith:'url(image/col6.png)',
       cardBackgroundseven:'url(image/col10.png)',
-      closeIconImage:'url(image/CloseButton.png)',
-      seeLiveIcon: 'image/Enable.png',
-      seeSourceIcone: 'image/EnableOne.png',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
+      seesourceLive: 'https://aster-alemu.github.io/',
+      seeSourceLink: 'https://github.com/aster-alemu/',
+
+
+    },
+    {
+      title:'Multi-Post Stories',
+      popTitle:'Keeping track of hundreds  of components website',
+      popDescription: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry', 
+      technologies: ['html', 'Bootstrap', 'Ruby on rails'],
+      ButtonFirst: ['html', 'bootstrap', 'Ruby', 'See project'],
+      imagePlaceholder:'image/Snapshoot-Portfolio.png',
+      seeLive:'See Live',
+      seeSource:'See Source',
+      ImageFirstCard:'image/firstImg.png',
+      firstDescription:'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text',
+      titleCardOne:'Multi-Post Stories',
+      cardTwoHeader:'Profesional Art Printing Data',
+      cardTwoDescription: 'A daily selection of privately personalized reads; no accounts orsign-ups required. has been the industrys standard',
+      cardBackground:'url(image/col5.png)',
+      cardBackgroundfour:'url(image/col4.png)',
+      cardBackgroundsith:'url(image/col6.png)',
+      cardBackgroundseven:'url(image/col10.png)',
+      closeIconImage:'image/closeIcon.png',
+      seeSourceIcone: 'image/gitIcon.png',
+      seeLiveIcon: 'image/seeLive.png',
       seesourceLive: 'https://aster-alemu.github.io/',
       seeSourceLink: 'https://github.com/aster-alemu/',
 
@@ -199,11 +200,10 @@ navLink.addEventListener('click', () => {
   headingTwo.textContent=ProjectDetail[1].popTitle;
   headingPart.appendChild(headingTwo);
 
-  const closeIcon=document.createElement('p');
+  const closeIcon=document.createElement('img');
   closeIcon.classList.add('fa-times');
   closeIcon.classList.add('para');
-  // closeIcon.src=ProjectDetail[1].closeIconImage;
-  closeIcon.textContent="X";
+  closeIcon.src=ProjectDetail[1].closeIconImage;
   headingPart.appendChild(closeIcon);
   const closeInconActivity="document.getElementById('card-works').style.display=block";
   closeIcon.onclick=closeInconActivity;
@@ -221,8 +221,8 @@ navLink.addEventListener('click', () => {
       techLi.classList.add('tec-list');
       const techbtn=document.createElement('button');
       techLi.appendChild(techbtn);
-      const classes= ['button'];
-      techbtn.classList.add(classes);
+      techbtn.classList.add('button');
+      techbtn.classList.add('techBtn');
       techbtn.textContent=ProjectDetail[1].technologies[j];
 
       
@@ -259,17 +259,24 @@ navLink.addEventListener('click', () => {
   sourceInfo.classList.add('source');
   descriptionSource.appendChild(sourceInfo);
 
-  const buttonOne=document.createElement('img');
+  const buttonOne=document.createElement('button');
   buttonOne.classList.add('btn1');
-  buttonOne.src=ProjectDetail[1].seeSourceIcone;
   sourceInfo.appendChild(buttonOne);
+  buttonOne.textContent=ProjectDetail[1].seeLive;
+  const seeImg=document.createElement('img');
+  buttonOne.appendChild(seeImg);
+  seeImg.src=ProjectDetail[1].seeLiveIcon;
+
   buttonOne.addEventListener('click', () =>{
     ProjectDetail[1].seesourceLive;
     })
-  const buttonTwo=document.createElement('img');
+  const buttonTwo=document.createElement('button');
   buttonTwo.classList.add('btn2');
-  buttonTwo.src=ProjectDetail[1].seeLiveIcon;
   sourceInfo.appendChild(buttonTwo);
+  buttonTwo.textContent=ProjectDetail[1].seeSource;
+  const seeSourceImg=document.createElement('img');
+  buttonTwo.appendChild(seeSourceImg);
+  seeSourceImg.src=ProjectDetail[1].seeSourceIcone
   buttonTwo.addEventListener('click', () =>{
   ProjectDetail[1].seeSourceLink;
   });
@@ -277,15 +284,18 @@ navLink.addEventListener('click', () => {
   let btnopen=document.querySelectorAll('.button');
   let myModal=document.querySelector('.card-works');
   const closeMenuIcon = document.querySelector('.para');
+  const myPortfolio=document.querySelector('#portfolio');
   
   Array.prototype.map.call(btnopen, (b) =>{
     b.addEventListener('click', function(){
       myModal.classList.add('bg-active');
+      myPortfolio.style.filter= 'blur(5px)';
     });
   });
   
   closeMenuIcon.addEventListener('click', () =>{
     myModal.classList.remove('bg-active');
+    myPortfolio.style.filter= 'blur(0)';
       document.body.style.overflowY = 'scroll';
     });
   
