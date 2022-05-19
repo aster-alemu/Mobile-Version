@@ -248,3 +248,19 @@ closeMenuIcon.addEventListener('click', () => {
   myPortfolio.style.filter = 'blur(0)';
   document.body.style.overflowY = 'scroll';
 });
+const emailInputField = document.getElementById('email');
+const formElement = document.getElementById('my-form');
+const displayErrorElement = document.getElementById('display-error');
+formElement.addEventListener('submit', (event) => {
+  if (emailInputField.value !== emailInputField.value.toLowerCase()) {
+    event.preventDefault();
+    displayErrorElement.innerHTML = 'The email Field must be in lowercase!!!';
+    displayErrorElement.style.display = 'block';
+    displayErrorElement.classList.add('displayErrorMessage');
+    setTimeout(() => {
+      displayErrorElement.style.display = 'none';
+    }, 4000);
+  } else {
+    displayErrorElement.style.display = 'none';
+  }
+});
