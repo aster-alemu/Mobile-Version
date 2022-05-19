@@ -711,6 +711,7 @@ input[type="button"]:disabled {
   width: 159px;
   height: 48px;
   padding-left: 12px;
+  margin-right: 5px;
   background-color: #ff6b00;
   font-family: Inter, sans-serif;
   font-weight: bold;
@@ -718,7 +719,6 @@ input[type="button"]:disabled {
   color: #fff;
   text-align: center;
   border: none;
-
 }
 
 .btn2 .fa-brands {
