@@ -143,7 +143,6 @@ const ProjectDetail = [{
   seeSourceLink: 'https://github.com/aster-alemu/',
 }];
 const menu = document.querySelector('.menu-item');
-// const menuList = document.querySelector('#menu-options');
 const bars = document.querySelector('#bars');
 const closeMenu = document.querySelector('.fa-times');
 const navLink = document.querySelector('.nav-link');
