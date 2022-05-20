@@ -149,12 +149,10 @@ const navLink = document.querySelector('.nav-link');
 bars.addEventListener('click', () => {
   menu.classList.toggle('show-menu');
   document.body.style.overflowY = 'hidden';
-  console.log(menu.classList);
 });
 closeMenu.addEventListener('click', () => {
   menu.classList.toggle('show-menu');
   document.body.style.overflowY = 'scroll';
-  console.log(menu.classList);
 });
 navLink.addEventListener('click', () => {
   document.body.style.overflowY = 'scroll';
@@ -264,3 +262,23 @@ formElement.addEventListener('submit', (event) => {
     displayErrorElement.style.display = 'none';
   }
 });
+const fullName = document.getElementById('fullName');
+const email = document.getElementById('email');
+const message = document.getElementById('text-area');
+
+function preserveData() {
+  const userObject = {
+    fullName: fullName.value,
+    message: message.value,
+    email: email.value,
+  };
+  localStorage.setItem('userInfo', JSON.stringify(userObject));
+}
+email.addEventListener('focusout', preserveData);
+fullName.addEventListener('focusout', preserveData);
+message.addEventListener('focusout', preserveData);
+
+const objParsed = JSON.parse(localStorage.getItem('userInfo'));
+message.value = objParsed.message;
+email.value = objParsed.email;
+fullName.value = objParsed.fullName;
